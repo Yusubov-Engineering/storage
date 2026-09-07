@@ -12,3 +12,7 @@ dependencies:
   flutter_secure_storage: ^11.0.0
   storage_api:
   dependency_injection_api:
+    git:
+      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      path: dependency_injection_api
+      ref: v1.0.0
