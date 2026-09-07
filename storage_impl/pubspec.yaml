@@ -1,0 +1,14 @@
+name: storage_impl
+description: "Implementation details of Storage module"
+version: 1.0.0
+
+resolution: workspace
+
+environment:
+  sdk: ^3.13.0
+
+dependencies: 
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^11.0.0
+  storage_api:
+  dependency_injection_api:
