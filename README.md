@@ -35,12 +35,11 @@ dependency at `v1.0.0`) — see `storage_impl/pubspec.yaml`.
 
 ## Local development
 
-The two packages share one pub workspace, declared in the root
-`pubspec.yaml`:
+Each package resolves independently — there is no shared workspace root:
 
 ```bash
-flutter pub get   # resolves both storage_api and storage_impl
-flutter analyze
+cd storage_api && flutter pub get && flutter analyze && cd ..
+cd storage_impl && flutter pub get && flutter analyze && cd ..
 ```
 
 ## Releasing
