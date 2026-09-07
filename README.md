@@ -20,12 +20,12 @@ pinned to a tag:
 dependencies:
   storage_api:
     git:
-      url: git@github.com:Yusubov-Engineering/storage.git
+      url: https://github.com/Yusubov-Engineering/storage.git
       path: storage_api
       ref: v1.0.0
   storage_impl:
     git:
-      url: git@github.com:Yusubov-Engineering/storage.git
+      url: https://github.com/Yusubov-Engineering/storage.git
       path: storage_impl
       ref: v1.0.0
 ```
