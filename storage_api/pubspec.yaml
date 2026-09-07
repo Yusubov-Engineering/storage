@@ -5,3 +5,10 @@ publish_to: none
 
 environment:
   sdk: ^3.13.0
+
+dev_dependencies:
+  app_linter:
+    git:
+      url: git@github.com:Yusubov-Engineering/app_linter.git
+      path: .
+      ref: v1.0.0
