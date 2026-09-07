@@ -1,6 +1,7 @@
 name: storage_api
 description: "Api protocols of Storage (persistance) module"
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ^3.13.0
